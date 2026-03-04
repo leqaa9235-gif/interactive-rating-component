@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.state-rating{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width:430px;
+}
+
+.star-img{
+    background-color:hsla(217, 12%, 63%, 0.1);
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:30px;
+    padding: 23px;
+}
+
+.h2{
+    color:  hsl(0, 100%, 100%);
+    padding-left: 30px;
+}
+
+.p{
+    color: hsl(217, 12%, 63%) ;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    line-height: 1.5;
+}
+ 
+.rate-holder{
+    display:flex;
+    gap: 25px;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.rating{
+    background-color: hsla(217, 12%, 63%,0.2);
+    color: hsl(0, 100%, 100%);
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.rating:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    color: hsl(213, 19%, 18%);
+}
+.btn{
+    background-color: hsl(25, 97%, 53%);
+    color:  hsl(216, 12%, 8%);
+    margin-left: 30px;
+    padding: 12px 150px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border:none;
+    border-radius:20px;
+    margin-top:30px;
+    cursor:pointer;
+    font-family:'Overpass', sans-serif ;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background-color:hsl(0, 100%, 100%) ;
+
+}
+
+.state-thankyou{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width:430px;
+    display:none;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.thankyou-img{
+    width:150px;
+    margin-bottom:30px;
+    margin-top: 20px;
+}
+
+.selected-rating{
+    background-color: hsla(217, 12%, 63%,0.1);
+    color: hsl(25, 97%, 53%);
+    width:200px;
+    height:40px;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.h22{
+    color:  hsl(0, 100%, 100%);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.thankyou-p{
+    color: hsl(217, 12%, 63%) ;
+    text-align: center;
+    padding: 0 5px;
+}
