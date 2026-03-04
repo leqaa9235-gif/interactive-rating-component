@@ -125,3 +125,11 @@ body{
     text-align: center;
     padding: 0 5px;
 }
+@media (max-width: 500px) {
+    .state-rating, .state-thankyou{
+        width: 90%;
+    }
+    .btn{
+        padding: 12px 100px;
+    }
+}
